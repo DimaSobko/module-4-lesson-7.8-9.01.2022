@@ -2,6 +2,11 @@
 /* 2. main */
 /* 3. footer */
 
+:root{
+    --color: #000000;
+    --hover:#2196f3;
+}
+
 
 body {
   font-family: roboto, sans-serif;
@@ -12,7 +17,7 @@ ul {
 }
 a{
     text-decoration: none;
-    color: black;
+    color: var(--color)
 }
 
 .logo {
@@ -25,17 +30,16 @@ a{
   /* identical to box height */
 
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--hover);
 }
 
 .nav-link:hover,
 .nav-link:focus      {
-  color: #2196f3;
+  color: var(--hover);
 }
 .logo-first {
-  color: black;
+  color: var(--color)
 }
 .more {
   list-style-type: none;
-  color: black;
-}
+  color: var(--color)
