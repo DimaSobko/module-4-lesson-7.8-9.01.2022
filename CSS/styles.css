@@ -2,4 +2,33 @@
 /* 2. main */
 /* 3. footer */
 
+body {
+  font-family: roboto, sans-serif;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+  color: #2196F3;
+}
+
 /* 1. header */
+
+.header:hover{
+   text-decoration: none;
+}
+
+.nav-link {
+  color: black;
+}
+.nav-link:hover {
+  color: #2196f3;
+}
+.logo-first{
+    color: black;
+}
