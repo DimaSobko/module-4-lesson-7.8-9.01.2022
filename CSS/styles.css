@@ -2,10 +2,21 @@
 /* 2. main */
 /* 3. footer */
 
+
 body {
   font-family: roboto, sans-serif;
 }
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .logo {
+  text-decoration: none;
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -14,21 +25,17 @@ body {
   /* identical to box height */
 
   letter-spacing: 0.03em;
-  color: #2196F3;
-}
-
-/* 1. header */
-
-.header:hover{
-   text-decoration: none;
-}
-
-.nav-link {
-  color: black;
-}
-.nav-link:hover {
   color: #2196f3;
 }
-.logo-first{
-    color: black;
+
+.nav-link:hover,
+.nav-link:focus      {
+  color: #2196f3;
+}
+.logo-first {
+  color: black;
+}
+.more {
+  list-style-type: none;
+  color: black;
 }
