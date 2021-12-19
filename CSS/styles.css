@@ -1,6 +1,3 @@
-/* 1. header */
-/* 2. main */
-/* 3. footer */
 
 :root{
     --color: #000000;
@@ -19,6 +16,17 @@ a{
     text-decoration: none;
     color: var(--color)
 }
+.nav-link:hover,
+.nav-link:focus,    {
+  color: var(--hover);
+}
+.logo-first {
+  color: var(--color)
+}
+.more {
+  list-style-type: none;
+  color: var(--color)
+
 
 .logo {
   text-decoration: none;
@@ -33,13 +41,3 @@ a{
   color: var(--hover);
 }
 
-.nav-link:hover,
-.nav-link:focus,    {
-  color: var(--hover);
-}
-.logo-first {
-  color: var(--color)
-}
-.more {
-  list-style-type: none;
-  color: var(--color)
