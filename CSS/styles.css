@@ -34,7 +34,7 @@ a{
 }
 
 .nav-link:hover,
-.nav-link:focus      {
+.nav-link:focus,    {
   color: var(--hover);
 }
 .logo-first {
