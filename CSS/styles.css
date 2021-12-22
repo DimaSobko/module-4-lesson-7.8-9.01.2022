@@ -26,11 +26,15 @@ body {
 
 /* Логотип */
 
-.nav {
+.site-header-nav-link {
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--first-text-color-black);
 }
-.nav .nav-text {
+.site-header-nav-link .nav-text {
   color: var(--alternative-text-color);
 }
 /* Ссылки навигации */
@@ -38,6 +42,10 @@ body {
   text-decoration: none;
   color: var(--first-text-color-black);
   font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .nav-list:hover,
 .nav-list:focus {
@@ -53,16 +61,43 @@ body {
   color: var(--secondary-alternative-text-color);
   background-color: var(--background-hero-footer-color);
 }
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 .hero .hero-button {
   color: var(--secondary-alternative-text-color);
   background-color: var(--alternative-text-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   cursor: pointer;
 }
 
-/* What-are-we-doing */
+/* container */
 
-.post {
-  color: var(--secondary-text-color-grey);
+.container-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.container-feature {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /* Our team */
@@ -71,12 +106,41 @@ body {
   background-color: var(--background-secondary-color);
 }
 
+.our-team-userpic {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.our-team-post {
+  color: var(--secondary-text-color-grey);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.container-post {
+  color: var(--secondary-text-color-grey);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
 /* Подвал */
 
 .footer {
   background-color: var(--background-hero-footer-color);
 }
 .footer-nav {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--secondary-alternative-text-color);
 }
@@ -85,25 +149,57 @@ body {
 }
 .footer .footer-text {
   color: var(--secondary-alternative-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71x;
+  letter-spacing: 0.03em;
 }
-.footer .footer-link {
+
+.footer-link {
   color: var(--footer-text-color);
   text-decoration: none;
   font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* next site portfolio */
 
-.main-title-button {
-    color: var(--first-text-color-black);
-    background-color: var(--background-secondary-color);
-    cursor: pointer;
-}
-.main-title-button:hover,
-.main-title-button:focus {
-color: var(--secondary-alternative-text-color);
-background-color:var(--alternative-text-color);
+.box .nav {
+  color: var(--first-text-color-black);
+  text-decoration: none;
 }
 
-/* main */
+.main-portfolio-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
 
+.main-portfolio-post {
+  color: var(--secondary-text-color-grey);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+.main-portfolio-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-family: inherit;
+
+  color: var(--first-text-color-black);
+  background-color: var(--background-secondary-color);
+  cursor: pointer;
+}
+.main-portfolio-button:hover,
+.main-portfolio-button:focus {
+  color: var(--secondary-alternative-text-color);
+  background-color: var(--alternative-text-color);
+}
