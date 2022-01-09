@@ -23,6 +23,11 @@ body {
   background-color: var(--background-main-color-white);
 }
 
+img {
+  display: block;
+  min-width: 100%;
+}
+
 .wrapper {
   /* outline: 4px solid red; */
   width: 1200px;
@@ -290,23 +295,20 @@ body {
   text-decoration: none;
 }
 
-.nav .product-images {
-  display: block;
-}
-
 .nav .product-border {
+  padding: 20px 24px 20px 24px;
   border: 1px solid var(--product-border);
 }
 
 .main-portfolio-title {
-  margin: 20px 24px 0 24px;
+  margin: 0;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .main-portfolio-post {
-  margin: 4px 24px 20px 24px;
+  margin: 4px 0 0 0;
   color: var(--secondary-text-color-grey);
   font-size: 16px;
   line-height: 1.87;
@@ -366,7 +368,6 @@ body {
   flex-basis: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  /* outline: 2px solid red; */
 }
 
 .list.items-card .card-product:nth-child(3n) {
