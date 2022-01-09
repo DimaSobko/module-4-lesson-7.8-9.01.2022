@@ -21,21 +21,21 @@
   <body>
     <header class="site-header">
       <!-- Логотип -->
-      <div class="wrapper">
+      <div class="wrapper flexbox">
         <nav class="site-header-nav">
           <a class="site-header-nav-link" href="./index.html"
             ><span class="nav-text">Web</span>studio
           </a>
         </nav>
         <!-- Переход по страницам -->
-        <ul class="list">
-          <li><a class="nav-list current" href="./index.html">Студия</a></li>
-          <li><a class="nav-list" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="nav-list" href="#Контакты">Контакты</a></li>
+        <ul class="list items">
+          <li class="list-item-li"><a class="nav-list current" href="./index.html">Студия</a></li>
+          <li class="list-item-li"><a class="nav-list" href="./portfolio.html">Портфолио</a></li>
+          <li class="list-item-li"><a class="nav-list" href="#Контакты">Контакты</a></li>
         </ul>
         <!-- Ссылки на контакты -->
-        <nav>
-          <address>
+        <nav class="flexbox-contacts">
+          <address class="site-header-nav-contacts">
             <a class="nav-list" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
@@ -55,29 +55,29 @@
       <!-- Второй блок -->
       <section class="container">
         <div class="wrapper">
-          <ul class="list">
-            <li>
+          <ul class="list feature-items">
+            <li class="feature-items-list">
               <h3 class="container-feature">Внимание к деталям</h3>
               <p class="container-post">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
-            </li>
-            <li>
+            </li">
+            <li class="feature-items-list">
               <h3 class="container-feature">Пунктуальность</h3>
               <p class="container-post">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="feature-items-list">
               <h3 class="container-feature">Планирование</h3>
               <p class="container-post">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="feature-items-list">
               <h3 class="container-feature">Современные технологии</h3>
               <p class="container-post">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -87,16 +87,16 @@
           </ul>
 
           <h2 class="container-title">Чем мы занимаемся</h2>
-          <ul class="list" lang="en">
-            <li>
-              <img
+          <ul class="list images" lang="en">
+            <li class="images-items">
+              <img class="icon"
                 src="./images/What-are-we-doing-1.png"
                 width="370"
                 height="294"
                 alt="What are we doing-1"
               />
             </li>
-            <li>
+            <li class="images-items">
               <img
                 src="./images/What-are-we-doing-2.png"
                 width="370"
@@ -104,7 +104,7 @@
                 alt="What are we doing-2"
               />
             </li>
-            <li>
+            <li class="images-items">
               <img
                 src="./images/What-are-we-doing-3.png"
                 width="370"
@@ -119,8 +119,8 @@
       <section class="container our-team">
         <div class="wrapper">
           <h2 class="container-title">Наша команда</h2>
-          <ul class="list">
-            <li>
+          <ul class="list list-box">
+            <li class="box-items">
               <figure class="inner">
                 <img
                   src="./images/team-1.png"
@@ -134,7 +134,7 @@
               </figure>
               <p class="our-team-post" lang="en">Product Designer</p>
             </li>
-            <li>
+            <li class="box-items">
               <figure class="inner">
                 <img
                   src="./images/team-2.png"
@@ -146,7 +146,7 @@
               </figure>
               <p class="our-team-post" lang="en">Frontend Developer</p>
             </li>
-            <li>
+            <li class="box-items">
               <figure class="inner">
                 <img
                   src="./images/team-3.png"
@@ -160,7 +160,7 @@
               </figure>
               <p class="our-team-post" lang="en">Marketing</p>
             </li>
-            <li>
+            <li class="box-items">
               <figure class="inner">
                 <img
                   src="./images/team-4.png"
