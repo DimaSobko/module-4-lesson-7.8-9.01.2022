@@ -47,9 +47,6 @@ img {
 
 /* Логотип */
 
-.site-header-nav {
-  /* margin-right: 0; */
-}
 
 .site-header-nav-link {
   font-family: Raleway;
@@ -519,9 +516,6 @@ img {
 }
 /* flexbox */
 
-.wrapper.test {
-  /* background-color: thistle; */
-}
 
 .wrapper .list.list-navigation {
   display: flex;
