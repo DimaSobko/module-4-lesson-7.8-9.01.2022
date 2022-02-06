@@ -47,7 +47,6 @@ img {
 
 /* Логотип */
 
-
 .site-header-nav-link {
   font-family: Raleway;
   font-size: 26px;
@@ -165,6 +164,7 @@ img {
 
 .hero-title {
   margin: 0 0 30px 0;
+  padding-top: 200px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -325,6 +325,11 @@ img {
   background-position: center;
 }
 
+.icon .icon-items {
+  display: block;
+  height: 44px;
+}
+
 .instagram {
   background-image: url("../images/instagram\ 2.svg");
 }
@@ -427,7 +432,7 @@ img {
 }
 
 .list .flex-logo {
-  display: inline-flex;
+  display: inline-block;
   height: 44px;
   width: 44px;
   /* outline: 2px solid red; */
@@ -456,6 +461,12 @@ img {
 
 .f-linkedin {
   background-image: url("../images/f-linkedin.svg");
+}
+
+.flex-logo .logo-items {
+  display: block;
+  height: 44px;
+  width: 44px;
 }
 
 /* next site portfolio */
@@ -515,7 +526,6 @@ img {
   background-color: var(--alternative-text-color);
 }
 /* flexbox */
-
 
 .wrapper .list.list-navigation {
   display: flex;
