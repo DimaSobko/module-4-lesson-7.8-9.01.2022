@@ -70,6 +70,8 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  /* background-color: #2196f3; */
+  /* outline: 2px solid red; */
 }
 
 .nav-list.envelope::before {
@@ -195,39 +197,21 @@ img {
 
 .list.feature-items {
   display: flex;
+  justify-content: space-between;
 }
 
 .feature-items-list {
   max-width: 270px;
 }
 
-.feature-items-list::before {
-  content: "";
-  display: block;
-  /* outline: 2px solid red; */
-  height: 120px;
-  /* min-width: 270px; */
+.container-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
+  min-width: 270px;
+  height: 120px;
   background-color: var(--background-secondary-color);
-  border-radius: 4px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.feature-items-list.antenna::before {
-  background-image: url("../images/antenna\ 1.svg");
-}
-
-.feature-items-list.clock::before {
-  background-image: url("../images/clock\ 1.svg");
-}
-
-.feature-items-list.diagram::before {
-  background-image: url("../images/diagram\ 1.svg");
-}
-
-.feature-items-list.astronaut::before {
-  background-image: url("../images/astronaut\ 1.svg");
 }
 
 .list.feature-items .feature-items-list:not(:last-child) {
@@ -320,30 +304,25 @@ img {
   /* outline: 2px solid red; */
   height: 44px;
   width: 44px;
-  border-radius: 50%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .icon .icon-items {
-  display: block;
+  /* outline: 2px solid red; */
+  display: inline-flex;
+  width: 44px;
   height: 44px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--background-secondary-color);
+  fill: var(--border-radius);
 }
 
-.instagram {
-  background-image: url("../images/instagram\ 2.svg");
-}
-
-.twitter {
-  background-image: url("../images/twitter\ 1.svg");
-}
-
-.facebook {
-  background-image: url("../images/facebook\ 1.svg");
-}
-
-.linkedin {
-  background-image: url("../images/linkedin\ 1.svg");
+.icon-items:hover {
+  background-color: var(--alternative-text-color);
+  fill: var(--background-main-color-white);
 }
 
 .list-box .box-items:nth-child(4n) {
@@ -364,8 +343,16 @@ img {
   /* outline: 2px solid red; */
   height: 92px;
   width: 170px;
-  bottom: 1px solid var(--border-radius);
+  border: 1px solid var(--border-radius);
   border-radius: 4px;
+}
+
+.logo-icon {
+  display: inline-flex;
+  width: 170px;
+  height: 92px;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Подвал */
