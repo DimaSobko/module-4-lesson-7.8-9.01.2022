@@ -41,10 +41,18 @@
         <!-- Ссылки на контакты -->
         <nav class="flexbox-contacts">
           <address class="site-header-nav-contacts">
-            <a class="nav-list envelope" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-            <a class="nav-list smartphone" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="link-nav" href="mailto:info@devstudio.com">
+              <svg class="nav-icon" widht="20" height="20">
+                <use href="./images/symbol-defs.svg#icon-envelope"></use>
+              </svg>
+              <p class="text-nav-contacts">info@devstudio.com</p>
+            </a>
+            <a class="link-nav" href="tel:+380961111111">
+              <svg class="nav-icon" widht="20" height="20">
+                <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                <P class="text-nav-contacts">+38 096 111 11 11</P>
+              </svg>
+            </a>
           </address>
         </nav>
       </div>
@@ -250,20 +258,39 @@
   <a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a>
 </address>
 </div>
-<ul class="list list-logo">
-  <li class="flex-logo f-instagram">
-    <a class="logo-items" href=""></a>
-  </li>
-  <li class="flex-logo f-twitter">
-    <a class="logo-items" href=""></a>
-  </li>
-  <li class="flex-logo f-facebook">
-    <a class="logo-items" href=""></a>
-  </li>
-  <li class="flex-logo f-linkedin">
-    <a class="logo-items" href=""></a>
-  </li>
-</ul>
+<div class="footer-container-list">
+  <span class="barker">Присоеденяйтесь</span>
+  <ul class="list list-logo">
+    <li class="flex-logo f-instagram">
+      <a class="logo-items" href="">
+        <svg wight="20" height="20">
+         <use href="./images/symbol-defs.svg#icon-instagram-footer"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="flex-logo f-twitter">
+      <a class="logo-items" href="">
+        <svg wight="20" height="20">
+          <use href="./images/symbol-defs.svg#icon-twitter-footer"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="flex-logo f-facebook">
+      <a class="logo-items" href="">
+        <svg wight="20" height="20">
+          <use href="./images/symbol-defs.svg#icon-facebook-footer"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="flex-logo f-linkedin">
+      <a class="logo-items" href="">
+        <svg wight="20" height="20">
+          <use href="./images/symbol-defs.svg#icon-linkedin-footer"></use>
+        </svg>
+      </a>
+    </li>
+  </ul>
+</div>
       </div>
     </footer>
   </body>

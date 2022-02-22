@@ -74,7 +74,38 @@ img {
   /* outline: 2px solid red; */
 }
 
-.nav-list.envelope::before {
+.link-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  font-style: normal;
+  fill: var(--secondary-text-color-grey);
+  color: var(--secondary-text-color-grey);
+  display: flex;
+  margin-right: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-nav:hover,
+.nav-link:focus {
+  fill: var(--alternative-text-color);
+  color: var(--alternative-text-color);
+}
+
+
+.nav-icon {
+  margin-right: 10px;
+  width: 20px;
+}
+
+.text-nav-contacts {
+  margin: 0;
+}
+
+/* .nav-list.envelope::before {
   content: "";
   width: 16px;
   height: 12px;
@@ -84,9 +115,9 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../images/envelope.svg");
-}
+} */
 
-.nav-list.smartphone::before {
+/* .nav-list.smartphone::before {
   content: "";
   width: 10px;
   height: 16px;
@@ -96,7 +127,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../images/smartphone.svg");
-}
+} */
 
 .nav-list:not(:last-child) {
   margin-right: 50px;
@@ -136,6 +167,7 @@ img {
 
 .site-header-nav-contacts {
   display: flex;
+  color: var(--secondary-text-color-grey);
 }
 
 /* main (hero) */
@@ -343,8 +375,6 @@ img {
   /* outline: 2px solid red; */
   height: 92px;
   width: 170px;
-  border: 1px solid var(--border-radius);
-  border-radius: 4px;
 }
 
 .logo-icon {
@@ -353,6 +383,15 @@ img {
   height: 92px;
   justify-content: center;
   align-items: center;
+  fill: var(--border-radius);
+  border: 1px solid var(--border-radius);
+  border-radius: 4px;
+}
+
+.logo-icon:hover,
+.logo-icon:focus {
+  fill: var(--alternative-text-color);
+  border: 1px  var(--alternative-text-color);
 }
 
 /* Подвал */
@@ -401,30 +440,31 @@ img {
   align-items: baseline;
 }
 
-.wrapper.items-flex .list-logo {
+.footer-container-list {
   margin-left: 70px;
 }
 
-.wrapper.items-flex .list-logo::before {
-  content: "ПРИСОЕДЕНЯЙТЕСЬ";
+.barker {
   display: block;
-  color: var(--secondary-alternative-text-color);
-  margin-bottom: 20px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  margin: 0 0 10px 0;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--background-main-color-white);
+}
+
+.wrapper.items-flex .list-logo {
+  justify-items: center;
+  align-items: center;
+  display: inline-flex;
 }
 
 .list .flex-logo {
   display: inline-block;
   height: 44px;
   width: 44px;
-  /* outline: 2px solid red; */
   border-radius: 50%;
-  background-color: var(--background-color-link);
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 10px;
@@ -434,26 +474,20 @@ img {
   margin-right: 0;
 }
 
-.f-instagram {
-  background-image: url("../images/f-instagram.svg");
-}
-
-.f-twitter {
-  background-image: url("../images/f-twitter.svg");
-}
-
-.f-facebook {
-  background-image: url("../images/f-facebook.svg");
-}
-
-.f-linkedin {
-  background-image: url("../images/f-linkedin.svg");
-}
-
 .flex-logo .logo-items {
-  display: block;
+  display: inline-flex;
+  justify-items: center;
+  align-items: center;
   height: 44px;
   width: 44px;
+  background-color: var(--background-color-link);
+  border-radius: 50%;
+  fill: var(--background-main-color-white);
+}
+
+.flex-logo .logo-items:hover,
+.flex-logo .logo-items:focus {
+  background-color: var(--alternative-text-color);
 }
 
 /* next site portfolio */
@@ -511,6 +545,7 @@ img {
 .main-portfolio-button:focus {
   color: var(--secondary-alternative-text-color);
   background-color: var(--alternative-text-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /* flexbox */
 
